@@ -15,7 +15,7 @@ httpRequest.onreadystatechange = function(){
 	    for (var i = 0; i < data.length; i++) {
 	        result += '<li>' + data[i].firstChild.nodeValue + '</li>';
 	    }
-	    result = '</ul>';
+	    result += '</ul>';
 	    document.getElementById('readData').innerHTML = result;
 	}
 }
